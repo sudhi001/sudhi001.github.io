@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",
-    "theme_color": "#15b572",
+    "theme_color": "#000000",
     "description": "Sudhi S.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
