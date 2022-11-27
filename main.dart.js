@@ -53006,11 +53006,11 @@ $0(){},
 $S:0}
 A.z5.prototype={
 I(a){var s,r=null,q=t.D
-q=A.L4(A.a([A.Tk(A.a([B.uO,A.L4(A.a([A.jm("Hello, I'm  Sudhi \ud83d\udc4b",A.aG(a).RG.b,r,r),A.jm(u.k,A.aG(a).RG.w,r,r),A.jm(u.C,A.aG(a).RG.w,r,r),B.jB,B.uN],q),B.aG,B.b0),B.uO,new A.lK(A.a6E("me.png",0.9),B.c0,B.lB,B.i,r)],q),B.aG,B.b0,B.r_)],q),B.aG,B.b0)
+q=A.L4(A.a([A.Tk(A.a([B.uO,A.L4(A.a([A.jm("Hello, I'm  Sudhi \ud83d\udc4b",A.aG(a).RG.b,r,r),A.jm(u.k,A.aG(a).RG.w,r,r),A.jm(u.C,A.aG(a).RG.w,r,r),B.jB,B.uN],q),B.aG,B.b0),B.uO,new A.lK(A.a6E("images/me.png",0.9),B.c0,B.lB,B.i,r)],q),B.aG,B.b0,B.r_)],q),B.aG,B.b0)
 s=this.y4(a)
 return new A.n6(this.y4(a),s,q,r)},
 y4(a){var s=null
-return A.L4(A.a([new A.lK(A.a6E("me.png",s),B.c0,B.lB,B.i,s),B.jB,A.jm("Hello, I'm  Sudhi \ud83d\udc4b",A.aG(a).RG.b,s,s),A.jm(u.k,A.aG(a).RG.w,s,s),A.jm(u.C,A.aG(a).RG.w,s,s),B.jB,B.uN],t.D),B.aG,B.b0)}}
+return A.L4(A.a([new A.lK(A.a6E("images/me.png",s),B.c0,B.lB,B.i,s),B.jB,A.jm("Hello, I'm  Sudhi \ud83d\udc4b",A.aG(a).RG.b,s,s),A.jm(u.k,A.aG(a).RG.w,s,s),A.jm(u.C,A.aG(a).RG.w,s,s),B.jB,B.uN],t.D),B.aG,B.b0)}}
 A.z6.prototype={
 I(a){var s=$.aaK()
 return A.a7C(A.a5P(!1,B.y5),A.pg(new A.C3(A.L4(B.zi,B.aG,B.b0),null),null,null),s)}}
