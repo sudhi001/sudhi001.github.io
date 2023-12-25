@@ -3,7 +3,7 @@ import data from '../../app/data';
 
 export default function ProfileImage(props) {
     return <div className="flex items-center justify-center mt-7">
-        <Image src={data.profileImage}
+        <Image src="/profile.jpg"
             alt=" Profile Image"
             width={200}
             height={200}
