@@ -86,7 +86,7 @@ export default function ProfileAboutMe(props) {
     <h2 className="text-2xl font-bold mb-4 underline">Employment History</h2>
     <div className="mb-6">
       <p className="text-xl font-semibold ">Senior Technical Lead, Stabilix Solutions</p>
-      <p className="pb-4">2013 – Present</p>
+      <p className="pb-4 font-mono">2013 – Present</p>
       <ul className="list-disc pl-6 font-mono">
         <li>Created numerous projects across various domains including Healthcare, Insurance, and Identity Management.</li>
         <li>Proficient in Android, iOS, and Web application development; adept at deployment, testing, and overseeing project management tasks.</li>
@@ -99,7 +99,7 @@ export default function ProfileAboutMe(props) {
 
     <div className="mb-6">
       <h2 className="text-xl font-semibold ">Software Engineer, Zayan Infotech, India</h2>
-      <p className="pb-4">2012 – 2013</p>
+      <p className="pb-4 font-mono">2012 – 2013</p>
       <ul className="list-disc pl-6 font-mono">
         <li>Managed multiple Hospitality, Educational, Utility Development projects including web services.</li>
         <li>Performed as a Full Stack Developer.</li>
