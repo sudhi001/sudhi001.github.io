@@ -1,7 +1,6 @@
-import styles from './AboutMe.module.css'
 
 export default function ProfileAboutMe(props) {
-  return <div className={styles.aboutme}> 
+  return <div > 
              <p className="pt-7 font-mono">
               I am a versatile programmer ready to contribute to various domains and platforms. Over the past 11 years, I have been employed at Stabilix Solution Private Limited, where I've gained extensive experience in domains such as Insurance, Identity Management, and Healthcare. My primary focus has been in the Healthcare sector.
               </p>
@@ -81,7 +80,7 @@ export default function ProfileAboutMe(props) {
                   </div>
                 </div>
 
-                <div className="max-w-3xl mx-auto p-6 r">
+                <div className="max-w-full mx-auto pt-7 ">
     <h1 className="text-2xl font-bold mb-4 underline">Employment History</h1>
 
     <div className="mb-6">

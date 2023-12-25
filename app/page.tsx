@@ -7,18 +7,12 @@ import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm flex">
-        <div className="relative left-0 top-0 flex w-full justify-center pt-7">
-             <div className={styles.column}>
-                 <ProfileImage/>
-              </div>
-              <div className="pl-14 pt-7">
+    <main className="flex min-h-screen flex-col items-center">
+        <div className="flex grid  lg:grid-cols-2 pt-7 items-center">
+                <ProfileImage/>
                 <ProfileBio/>
-              </div>
         </div>
-      </div>
-      <div className="flex place-items-center  pl-24 pr-24  pb-7">
+      <div className="flex place-items-center  lg:pl-24 lg:pr-24  lg:pb-7  p-4">
       <ProfileAboutMe/>
       </div>
       <div className="mb-16 grid min-w-20 max-w-40 w-full mb-0 grid-cols-2 text-center ">

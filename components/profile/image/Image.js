@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function ProfileImage(props) {
-    return <div className="flex place-items-center">
+    return <div className="flex items-center justify-center">
             <Image src="/img_profile.webp" 
             alt=" Profile Image"
             width={200}
