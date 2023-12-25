@@ -1,12 +1,17 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { url } from 'inspector'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sudhi S | Software Architect',
-  description: 'tabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India',
+  description: 'Sudhi S | Software Architect @ Stabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India',
+  applicationName:"My Profile",
+  authors:[{name:"Sudhi S",url: 'https://su-dhi.in'}],
+  keywords:["Sudhi S","Sudhi Surendran","Stabilix"," Software Architect","Mobile Application developer","Android Developer","iOS Developer"],
+
 }
 
 export default function RootLayout({
