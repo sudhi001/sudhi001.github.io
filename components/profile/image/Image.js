@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function ProfileImage(props) {
-    return <div className="flex items-center justify-center">
+    return <div className="flex items-center justify-center mt-7">
             <Image src="/profile.jpg" 
             alt=" Profile Image"
             width={200}

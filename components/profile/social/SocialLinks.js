@@ -3,7 +3,7 @@ import { faGithub, faXTwitter ,faLinkedin} from '@fortawesome/free-brands-svg-ic
 
 export default function SocialLink(props) {
     return  <div className='flex items-center justify-center'>
-          <div className="grid w-60 w-full grid-cols-3">
+          <div className="grid max-w-60 w-full grid-cols-3">
               <a
                 href="https://twitter.com/su_dhi"
                 className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
