@@ -1,0 +1,9 @@
+.aboutme {
+    margin: 0;
+    vertical-align: middle;
+    white-space: normal;
+    line-height: 1;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all 0.2s ease;
+  }
