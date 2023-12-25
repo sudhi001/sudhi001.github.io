@@ -1,6 +1,5 @@
 import ProfileBio from '../components/profile/bio/Bio'
 import ProfileAboutMe from '../components/profile/about/AboutMe'
-import styles from '../styles/home.module.css'
 import ProfileImage from '../components/profile/image/Image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons'

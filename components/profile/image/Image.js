@@ -6,7 +6,7 @@ export default function ProfileImage(props) {
             alt=" Profile Image"
             width={200}
             height={200}
-            className="inline-block h-40 w-40 rounded-full ring-2 ring-white "
+            className="inline-block h-40 w-40 rounded-full ring-2 dark:ring-white  ring-black"
             />
         </div>
   }

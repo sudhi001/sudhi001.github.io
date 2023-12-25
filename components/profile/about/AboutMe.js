@@ -8,7 +8,9 @@ export default function ProfileAboutMe(props) {
               </p>
               <p className="pt-7 font-mono">Currently, my role encompasses architecting applications across all mobile platforms with a focus on security and business involvement. I find immense satisfaction in the development, release, and success of each application. This journey is not just a job for me; it's my passion, ambition, and the essence of my life.
               </p>
-              <div className="max-w-full mx-auto  pt-14 grid  lg:grid-cols-3 ">
+              <div className="max-w-full mx-auto  pt-14 ">
+              <h1 className="text-2xl font-bold  underline">HARDWARE/SOFTWARE</h1>
+              <div className="grid  lg:grid-cols-3 mt-7">
                   <div className="mb-7 mr-7">
                     <h2 className="text-xl font-semibold  mb-2">Programming Languages:</h2>
                     <p>Java, Kotlin, Swift, Dart, Javascript, Python, Objective C, C#, PHP, C++</p>
@@ -79,13 +81,12 @@ export default function ProfileAboutMe(props) {
                     <p className='font-mono'>Mac OS, Windows, Ubuntu</p>
                   </div>
                 </div>
-
+                </div>
                 <div className="max-w-full mx-auto pt-7 ">
-    <h1 className="text-2xl font-bold mb-4 underline">Employment History</h1>
-
+    <h2 className="text-2xl font-bold mb-4 underline">Employment History</h2>
     <div className="mb-6">
-      <h2 className="text-xl font-semibold ">Senior Technical Lead, Stabilix Solutions</h2>
-      <p className="text-white pb-7">2013 – Present</p>
+      <p className="text-xl font-semibold ">Senior Technical Lead, Stabilix Solutions</p>
+      <p className="pb-4">2013 – Present</p>
       <ul className="list-disc pl-6 font-mono">
         <li>Created numerous projects across various domains including Healthcare, Insurance, and Identity Management.</li>
         <li>Proficient in Android, iOS, and Web application development; adept at deployment, testing, and overseeing project management tasks.</li>
@@ -98,7 +99,7 @@ export default function ProfileAboutMe(props) {
 
     <div className="mb-6">
       <h2 className="text-xl font-semibold ">Software Engineer, Zayan Infotech, India</h2>
-      <p className="text-white pb-7">2012 – 2013</p>
+      <p className="pb-4">2012 – 2013</p>
       <ul className="list-disc pl-6 font-mono">
         <li>Managed multiple Hospitality, Educational, Utility Development projects including web services.</li>
         <li>Performed as a Full Stack Developer.</li>
