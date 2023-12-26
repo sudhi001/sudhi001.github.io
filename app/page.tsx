@@ -3,6 +3,8 @@ import ProfileAboutMe from '../components/profile/about_me'
 import ProfileImage from '../components/profile/profile_image'
 import SocialLink from '../components/profile/social_link'
 import EmploymentHistory from '../components/profile/history'
+import Projects from '../components/profile/projects'
+
 
 
 export default function Home() {
@@ -17,6 +19,7 @@ export default function Home() {
       </div>
       <ProfileAboutMe />
       <EmploymentHistory />
+      <Projects/>
      <div className='flex max-w-full mx-auto mt-14  items-center justify-center'>
       <p className='font-mono'>https://Su-dhi.in</p>
         <img src="https://visitcount.itsvg.in/api?id=sudhi&label=Profile%20Views&color=12&icon=0&pretty=true" />
