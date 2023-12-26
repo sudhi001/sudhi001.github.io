@@ -19,9 +19,7 @@ export default function Home() {
       <EmploymentHistory />
      <div className='flex max-w-full mx-auto mt-14  items-center justify-center'>
       <p className='font-mono'>https://Su-dhi.in</p>
-      <a href="https://visitcount.itsvg.in">
         <img src="https://visitcount.itsvg.in/api?id=sudhi&label=Profile%20Views&color=12&icon=0&pretty=true" />
-      </a>
      </div>
     </main>
   )
