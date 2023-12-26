@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
-const isProduction = process.env.NODE_ENV === 'production';
+const isDev = process.env.NODE_ENV === 'development';
 const nextConfig = {
-   ...(isProduction ? { output: 'export' } : {}),
+   ...(!isDev ? { output: 'export' } : {}),
 }
 module.exports = nextConfig
 
