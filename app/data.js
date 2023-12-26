@@ -1,14 +1,27 @@
 const data = {
   name:"Sudhi S",
-  position:"Software Architect",
+  position:"Technical Architect",
   company:"Stabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India",
   aboutMe:[
     "I am a versatile programmer ready to contribute to various domains and platforms. Over the past 11 years, I have been employed at Stabilix Solution Private Limited, where I've gained extensive experience in domains such as Insurance, Identity Management, and Healthcare. My primary focus has been in the Healthcare sector.",
     "I commenced my career as an Android developer and later expanded my skills to include iOS platform development to meet project requirements. Subsequently, I diversified into other mobile platforms and desktop, particularly emphasizing client-side development. Intrigued by backend development, I dedicated myself to projects involving Video call and Big Data applications.",
     "Currently, my role encompasses architecting applications across all mobile platforms with a focus on security and business involvement. I find immense satisfaction in the development, release, and success of each application. This journey is not just a job for me; it's my passion, ambition, and the essence of my life.",
   ],
-  skillsTitle:"HARDWARE/SOFTWARE",
-  skills:[
+  webMeta:{
+    title: 'Sudhi S | Technical Architect',
+    description: 'Sudhi S | Technical Architect @ Stabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India',
+    applicationName:"My Profile",
+    authors:[{name:"Sudhi S",url: 'https://su-dhi.in'}],
+    keywords:["Sudhi S","Sudhi Surendran","Stabilix"," Technical Architect","Mobile Application developer","Android Developer","iOS Developer"],
+  },
+  socialLinks:[
+    { "href": "https://twitter.com/su_dhi", "icon": "faXTwitter" },
+    { "href": "https://github.com/sudhi001", "icon": "faGithub" },
+    { "href": "https://in.linkedin.com/in/sudhis", "icon": "faLinkedin" }
+  ],
+  skills:{
+    title:"HARDWARE/SOFTWARE",
+  data:[
     {
       "category": "Programming Languages",
       "items": ["Java", "Kotlin", "Swift", "Dart", "Javascript", "Python", "Objective C", "C#", "PHP", "C++", "C"]
@@ -65,9 +78,10 @@ const data = {
       "category": "Operating Systems",
       "items": ["Mac", "Windows", "Ubuntu"]
     }
-  ],
-  employmentHistoryTitle:"Employment History",
-  employmentHistory: [
+  ],},
+  employmentHistory:{
+    title:"Employment History",
+  data: [
     {
       "position": "Senior Technical Lead",
       "company": "Stabilix Solutions",
@@ -93,11 +107,8 @@ const data = {
       ]
     }
   ],
-  socialLinks:[
-    { "href": "https://twitter.com/su_dhi", "icon": "faXTwitter" },
-    { "href": "https://github.com/sudhi001", "icon": "faGithub" },
-    { "href": "https://in.linkedin.com/in/sudhis", "icon": "faLinkedin" }
-  ]
+}
+
   
 };
   

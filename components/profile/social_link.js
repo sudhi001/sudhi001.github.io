@@ -3,7 +3,7 @@ import { faGithub, faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-i
 import data from '../../app/data';
 
 export default function SocialLink(props) {
-  return <div className="flex items-center justify-center">
+  return <div className="flex items-center justify-center lg:items-start lg:justify-start">
     <div className="grid max-w-60 w-full grid-cols-3">
       {data.socialLinks.map((link, index) => (
         <a

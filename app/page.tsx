@@ -7,10 +7,10 @@ import EmploymentHistory from '../components/profile/history'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <div className="flex grid  lg:grid-cols-2 items-center">
+    <main className="flex min-h-screen flex-col items-center lg:items-start ">
+      <div className="flex grid  lg:grid-cols-2  items-center lg:items-start">
         <ProfileImage />
-        <div className="pt-7 items-center justify-center">
+        <div className="pt-7">
           <ProfilePrimaryBio />
           <SocialLink />
         </div>
