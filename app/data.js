@@ -52,7 +52,7 @@ const data = {
     },
     {
       "category": "Communication Protocols",
-      "items": ["HTTP/1", "HTTP/2", "REST", "SOAP", "Websocket", "WebRTP including VOIP", "GRPC", "MQTT"]
+      "items": ["HTTP/1", "HTTP/2", "REST", "SOAP", "Websocket", "WebRTP including VOIP", "GRPC", "MQTT", "GraphQL"]
     },
     {
       "category": "Architecture",
@@ -76,7 +76,7 @@ const data = {
     },
     {
       "category": "Operating Systems",
-      "items": ["Mac", "Windows", "Ubuntu"]
+      "items": ["macOS", "Windows", "Ubuntu", "Cent OS"]
     }
   ],},
   employmentHistory:{

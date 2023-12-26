@@ -1,4 +1,6 @@
 ## Sudhi S - Software Architect
+[![](https://visitcount.itsvg.in/api?id=sudhi&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in)
+[![Github Action](https://github.com/sudhi001/sudhi001.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/sudhi001/sudhi001.github.io/actions/workflows/deploy.yml)
 
 ### Introduction
 
@@ -42,4 +44,7 @@ You can visit my website at [su-dhi.in](https://su-dhi.in). Feel free to explore
 ### Feedback
 
 Your feedback is valuable to me! If you have any suggestions or comments, feel free to reach out. Thank you for visiting!
+
+
+
 
