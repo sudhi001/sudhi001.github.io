@@ -24,7 +24,7 @@ export default function Home() {
       <EmploymentHistory />
       <Projects/>
      <div className='flex max-w-full mx-auto mt-14  items-center justify-center'>
-      <p className='font-mono'>https://Su-dhi.in | Updated On {currentDateTimeString} |</p>
+      <p className='font-mono text-sm'>Updated On {currentDateTimeString} |</p>
         <img src="https://visitcount.itsvg.in/api?id=sudhi&label=Profile%20Views&color=12&icon=0&pretty=true" />
      </div>
     </main>
