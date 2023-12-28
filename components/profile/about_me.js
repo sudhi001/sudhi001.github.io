@@ -10,9 +10,9 @@ export default function ProfileAboutMe(props) {
       <h1 className="text-2xl font-bold  underline font-mono mb-4">{data.skills.title}</h1>
       <div className="grid  lg:grid-cols-3">
         {data.skills.data.map(({ category, items }) => (
-          <div key={category} className="mb-4 mr-7">
+          <div key={category} className="p-4">
             <h2 className="text-xl font-semibold mb-2 font-mono">{category}:</h2>
-            <p className='font-mono'>{items.join(', ')}</p>
+            <p className='font-mono '>{items.join(', ')}</p>
           </div>
         ))}
       </div>
