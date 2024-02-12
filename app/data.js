@@ -84,7 +84,7 @@ const data = {
     title: "Employment History",
     data: [
       {
-        position: "Senior Technical Lead",
+        position: "Technical Architect",
        company: "Stabilix Solutions",
         duration: "2013 – Present",
         responsibilities: [

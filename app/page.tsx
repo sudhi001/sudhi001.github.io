@@ -9,7 +9,11 @@ import Projects from '../components/profile/projects'
 
 export default function Home() {
   const currentDate = new Date();
-  const currentDateTimeString = currentDate.toLocaleString('en-US');
+const day = String(currentDate.getDate()).padStart(2, '0');
+const month = String(currentDate.getMonth() + 1).padStart(2, '0'); // January is 0!
+const year = currentDate.getFullYear();
+const currentDateTimeString = `${day}/${month}/${year}`;
+console.log(currentDateTimeString);
 
   return (
     <main className="flex min-h-screen flex-col items-center lg:items-start ">
@@ -24,8 +28,7 @@ export default function Home() {
       <EmploymentHistory />
       <Projects/>
      <div className='flex max-w-full mx-auto mt-14  items-center justify-center'>
-      <p className='font-mono text-sm'>Updated On {currentDateTimeString} |</p>
-        <img src="https://visitcount.itsvg.in/api?id=sudhi&label=Profile%20Views&color=12&icon=0&pretty=true" />
+      <p className='font-mono text-sm'>Updated On {currentDateTimeString}</p>
      </div>
     </main>
   )
