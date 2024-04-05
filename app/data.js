@@ -113,6 +113,13 @@ const data = {
     title:"Open Source Projects",
     data:[
       {
+        title:"toml_viewer",
+        descriptions:[
+          "A TOML viewer in Flutter is a user interface component that displays the contents of a TOML (Tom's Obvious, Minimal Language) file in a structured and readable format. This viewer typically parses the TOML file and presents its key-value pairs, tables, arrays, and nested structures in a visually appealing manner."
+        ],
+        href:"https://pub.dev/packages/toml_viewer"
+      },
+      {
         title:"HL7 to JSON Parser",
         descriptions:[
           "This application offers a secure HL7 message parsing solution for developers, preventing potential HIPAA violations associated with online data validation tools. Users can ensure data security by hosting and running the open-source application in their own environment."
