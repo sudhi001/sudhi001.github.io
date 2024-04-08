@@ -113,6 +113,13 @@ const data = {
     title:"Open Source Projects",
     data:[
       {
+        title:"Toml To Android Strings.​xml",
+        descriptions:[
+          "This plugin is designed to facilitate the conversion of TOML files into Android strings.xml files."
+        ],
+        href:"https://plugins.jetbrains.com/plugin/24122-toml-to-android-strings-xml"
+      },
+      {
         title:"toml_viewer",
         descriptions:[
           "A TOML viewer in Flutter is a user interface component that displays the contents of a TOML (Tom's Obvious, Minimal Language) file in a structured and readable format. This viewer typically parses the TOML file and presents its key-value pairs, tables, arrays, and nested structures in a visually appealing manner."
