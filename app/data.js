@@ -11,7 +11,7 @@ const data = {
     title: 'Sudhi S | Technical Architect',
     description: 'Sudhi S | Technical Architect @ Stabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India',
     applicationName: "My Profile",
-    authors: [{ name: "Sudhi S", url: 'https://su-dhi.in' }],
+    authors: [{ name: "Sudhi S", url: 'https://sudhi.in' }],
     keywords: ["Sudhi S", "Sudhi Surendran", "Stabilix", " Technical Architect", "Mobile Application developer", "Android Developer", "iOS Developer"],
   },
   socialLinks: [
