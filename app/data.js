@@ -113,6 +113,14 @@ const data = {
     title:"Open Source Projects",
     data:[
       {
+        title:"SmartTerrarium",
+        descriptions:[
+          "This project is designed to create an in-house terrarium using IoT technology.",
+           "It automates the watering process by spraying or pouring water based on the atmospheric temperature and soil humidity to maintain optimal conditions for the terrarium."
+        ],
+        href:"https://github.com/sudhi001/SmartTerrarium"
+      },
+      {
         title:"Toml To Android Strings.​xml",
         descriptions:[
           "This plugin is designed to facilitate the conversion of TOML files into Android strings.xml files."
@@ -169,3 +177,5 @@ const data = {
 };
 
 export default data;
+
+
