@@ -24,11 +24,11 @@ const data = {
     data: [
       {
         category: "Programming Languages",
-       items: ["Java", "Kotlin", "Swift", "Dart", "Javascript", "Python", "Objective C", "C#", "PHP", "C++", "C"]
+       items: ["Java", "Kotlin", "Swift", "Dart", "Javascript", "Python", "Objective C", "C#", "PHP", "C++", "C","Rust","Go"]
       },
       {
         category: "Web Frameworks",
-       items: ["Spring", "Javalin", "Struts", "Node", "Flask", "Fast API", ".Net", "CodeIgniter", "Vapor", "Flutter"]
+       items: ["Spring", "Javalin", "Struts", "Node", "Flask", "Fast API", ".Net", "CodeIgniter", "Vapor", "Flutter","NextJS","React"]
       },
       {
         category: "Mobile Frameworks",
@@ -37,6 +37,10 @@ const data = {
       {
         category: "Desktop Frameworks",
        items: ["Flutter", "JavaFX", "Electron", "Swift UI"]
+      },
+      {
+        category: "Mechine Learning Frameworks",
+       items: ["Pytorch", "Tensorflow", "Keras", "TensorflowLite","CoreML"]
       },
       {
         category: "Database",
@@ -52,15 +56,23 @@ const data = {
       },
       {
         category: "Communication Protocols",
-       items: ["HTTP/1", "HTTP/2", "REST", "SOAP", "Websocket", "WebRTP including VOIP", "GRPC", "MQTT", "GraphQL"]
+       items: ["HTTP/1", "HTTP/2", "REST", "SOAP", "Websocket", "WebRTC including VOIP", "GRPC", "MQTT", "GraphQL"]
       },
       {
         category: "Architecture",
-       items: ["MVC", "MVP", "MVVM", "MVI", "VIPER", "Microservice (With REST & GRPC)"]
+       items: ["MVC", "MVP", "MVVM", "MVI", "VIPER", "Microservice (With REST & GRPC)","Spring Cloud Architecture"]
       },
       {
         category: "Cloud",
        items: ["AWS (SNS, SQS, EC2, S3, CloudFront, Amplify)"]
+      },
+      {
+        category: "Queue",
+        items: ["ZeroMQ", "ActiveMQ", "RabitMQ", "Apache Kafka"]
+       },
+      {
+       category: "BigData",
+       items: ["Apache Nifi", "Spark", "Hive", "Impala","Apache Kudu"]
       },
       {
         category: "Testing",
@@ -72,7 +84,7 @@ const data = {
       },
       {
         category: "Data Serialization Format",
-       items: ["XML", "JSON", "YAML", "TOML", "MessagePack", "Protocol Buffers"]
+       items: ["XML", "JSON", "YAML", "TOML", "MessagePack", "Protocol Buffers","AVRO","HL7"]
       },
       {
         category: "Operating Systems",
