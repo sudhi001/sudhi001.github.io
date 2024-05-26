@@ -113,6 +113,22 @@ const data = {
     title:"Open Source Projects",
     data:[
       {
+        title:"SFormUI",
+        descriptions:[
+          "SFormUI is a React project aimed at dynamically creating a form UI wizard from JSON data.",
+           "It's currently under development and designed to facilitate the creation of interactive and customizable forms in React applications."
+        ],
+        href:"https://github.com/sudhi001/sfromui"
+      },
+      {
+        title:"SmartIOTConnect",
+        descriptions:[
+          "Smart IoT Connect is a Flutter application tested on Android . The application facilitates the connection between my IoT devices and my phone.",
+           "Connects to IoT devices (ESP32) via Bluetooth and allows configuration of Wi-Fi settings."
+        ],
+        href:"https://github.com/sudhi001/SmartIOTConnect"
+      },
+      {
         title:"SmartTerrarium",
         descriptions:[
           "This project is designed to create an in-house terrarium using IoT technology.",
