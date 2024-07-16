@@ -124,6 +124,13 @@ const data = {
   projects:{
     title:"Open Source Projects",
     data:[
+       {
+        title:"Remote Logger For Mobile Developers",
+        descriptions:[
+          "Remote Logging Console application developed for mobile developers to view the logs in server "
+        ],
+        href:"https://github.com/sudhi001/logger_server"
+      },
       {
         title:"SFormUI",
         descriptions:[
