@@ -24,7 +24,7 @@ const data = {
     data: [
       {
         category: "Programming Languages",
-       items: ["Java", "Kotlin", "Swift", "Dart", "Javascript", "Python", "Objective C", "C#", "PHP", "C++", "C","Rust","Go"]
+       items: ["Java","Python", "Kotlin", "Swift", "Dart", "Javascript", "Objective C", "C#", "PHP", "C++", "C","Rust","Go"]
       },
       {
         category: "Web Frameworks",
@@ -124,6 +124,13 @@ const data = {
   projects:{
     title:"Open Source Projects",
     data:[
+      {
+        title:"flutter_crypto_security",
+        descriptions:[
+          "A Flutter package for encryption and decryption of data using RSA and AES algorithms, with built-in signature verification. It provides utilities for secure communication and data protection."
+        ],
+        href:"https://github.com/sudhi001/flutter_crypto_security"
+      },
        {
         title:"Remote Logger For Mobile Developers",
         descriptions:[
