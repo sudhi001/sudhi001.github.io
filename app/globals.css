@@ -3,23 +3,24 @@
 @tailwind utilities;
 
 :root {
-  /* --foreground: #000;
-  --background: #fff; */
-  --foreground: #fff;
-  --background: #000;
+  --foreground: #dcdcdc; /* Lighter text color for terminal */
+  --background: #000000; /* Darker background */
+  --highlight: #00ff00; /* Terminal-like highlight color */
+  --cursor: #00ff00; /* Cursor color */
+  --font-family-terminal: 'Fira Code', monospace; /* Change to your preferred font */
 }
 
-
-/* @media (prefers-color-scheme: dark) {
+/* Dark mode styling - Uncomment this section if you want auto dark mode support */
+@media (prefers-color-scheme: dark) {
   :root {
-    --foreground: #fff;
-    --background: #000;
+    --foreground: #dcdcdc;
+    --background: #000000;
   }
-} */
+}
 
 body {
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-  'Arial', sans-serif;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 
+    'Arial', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   word-break: break-word;
@@ -31,4 +32,70 @@ body {
   hyphens: auto;
   color: var(--foreground);
   background: var(--background);
+}
+
+/* Custom terminal-like styles */
+.terminal {
+  font-family: var(--font-family-terminal); /* Custom font */
+  font-size: 16px;
+  background: var(--background);
+  color: var(--foreground);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1); /* Glow effect for terminal */
+}
+
+.terminal .command {
+  color: var(--highlight); /* Green for commands */
+}
+
+.terminal .output {
+  color: var(--foreground); /* Default text color for output */
+}
+
+.terminal .cursor {
+  color: var(--cursor); /* Cursor color */
+  animation: blink 0.8s step-end infinite; /* Blinking cursor effect */
+}
+
+/* Blink animation for terminal cursor */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Optional: Style links in terminal */
+.terminal a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.terminal a:hover {
+  text-decoration: underline;
+}
+
+/* Typing Animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+.typing-animation {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Limits the text to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }

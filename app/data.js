@@ -2,6 +2,7 @@ const data = {
   name: "Sudhi S",
   position: "Technical Architect",
   company: "Stabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India",
+  shortDescription:"12+ years of experience in Healthcare, Insurance, and Identity Management",
   aboutMe: [
     "I am a versatile programmer ready to contribute to various domains and platforms. Over the past 12 years, I have been employed at Stabilix Solution Private Limited, where I've gained extensive experience in domains such as Insurance, Identity Management, and Healthcare. My primary focus has been in the Healthcare sector.",
     "I commenced my career as an Android developer and later expanded my skills to include iOS platform development to meet project requirements. Subsequently, I diversified into other mobile platforms and desktop, particularly emphasizing client-side development. Intrigued by backend development, I dedicated myself to projects involving Video call and Big Data applications.",
