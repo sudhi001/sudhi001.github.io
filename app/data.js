@@ -125,6 +125,15 @@ const data = {
   projects:{
     title:"Open Source Projects",
     data:[
+      
+      {
+        title:"crypto_utils",
+        descriptions:[
+          "crypto_utils is a Go package that simplifies cryptographic operations like RSA key pair generation, encryption/decryption using RSA and AES, and encoding/decoding of keys.",
+          "The package is designed to help developers securely handle encryption needs with ease."
+        ],
+        href:"https://github.com/sudhi001/crypto_utils"
+      },
       {
         title:"flutter_crypto_security",
         descriptions:[
