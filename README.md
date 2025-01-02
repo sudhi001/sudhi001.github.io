@@ -19,7 +19,7 @@ This website serves as my online presence, showcasing my professional profile an
 
 ### Website Details
 
-- **Domain:** [su-dhi.in](https://su-dhi.in)
+- **Domain:** [sudhi.in](https://sudhi.in)
 - **Hosting:** GitHub Pages
 - **Framework:** Next.js
 

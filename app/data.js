@@ -24,7 +24,7 @@ const data = {
     title: "HARDWARE/SOFTWARE",
     data: [
       {
-        category: "Programming Languages",
+       category: "Programming Languages",
        items: ["Java","Python", "Kotlin", "Swift", "Dart", "Javascript", "Objective C", "C#", "PHP", "C++", "C","Rust","Go"]
       },
       {
@@ -85,7 +85,7 @@ const data = {
       },
       {
         category: "Data Serialization Format",
-       items: ["XML", "JSON", "YAML", "TOML", "MessagePack", "Protocol Buffers","AVRO","HL7"]
+       items: ["XML", "JSON", "YAML", "TOML", "MessagePack", "Protocol Buffers","AVRO","HL7","Parquet"]
       },
       {
         category: "Operating Systems",
