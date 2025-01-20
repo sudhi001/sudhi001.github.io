@@ -131,7 +131,7 @@ const data = {
         title:"Android MacroBenchmarkViewer",
         descriptions:[
           "Android MacroBenchmark Viewer is an open-source tool designed to visualize Android microbenchmark data directly in your browser.",
-          " It allows you to upload a JSON file containing benchmark results, view device and hardware specifications, and render charts (line and bar) for key performance metrics."
+          "It allows you to upload a JSON file containing benchmark results, view device and hardware specifications, and render charts (line and bar) for key performance metrics."
         ],
         href:"https://github.com/sudhi001/AndroidMacroBenchmarkViewer"
       },
