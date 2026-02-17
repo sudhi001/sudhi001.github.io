@@ -1,31 +1,46 @@
-import ParaGraph from './para';
 import data from '../../app/data';
 
-export default function ProfileAboutMe(props) {
+export default function ProfileAboutMe() {
   return (
-    <div className="lg:pl-24 lg:pr-24 p-4 command text-highlight font-terminal">
-      {/* About Me Section */}
-      <div className="pb-6">
-        <h1 className="text-2xl font-bold underline font-mono text-highlight">About Me</h1>
-        {data.aboutMe.map((paragraph, index) => (
-          <ParaGraph key={index} data={paragraph} />
-        ))}
-      </div>
-
-      {/* Skills Section */}
-      <div className="max-w-full mx-auto mt-14">
-        <h1 className="text-2xl font-bold underline font-mono mb-4 text-highlight">{data.skills.title}</h1>
-        
-        <div className="grid lg:grid-cols-3 gap-6">
-          {data.skills.data.map(({ category, items }) => (
-            <div key={category} className="p-4 bg-background border border-gray-500 rounded-lg shadow-md">
-              <h2 className="text-xl font-semibold mb-2 font-mono text-highlight">{category}:</h2>
-              <p className="font-mono text-foreground">{items.join(', ')}</p>
-            </div>
+    <div id="about" className="bg-background-alt py-20 px-4">
+      <div className="max-w-4xl mx-auto">
+        {/* About Me Section */}
+        <div className="mb-20">
+          <h2 className="text-3xl font-bold text-foreground mb-10">About Me</h2>
+          {data.aboutMe.map((paragraph, index) => (
+            <p key={index} className="text-foreground-secondary leading-relaxed text-base mb-5">
+              {paragraph}
+            </p>
           ))}
         </div>
-      </div>
 
+        {/* Skills Section */}
+        <div>
+          <h2 className="text-3xl font-bold text-foreground mb-10">{data.skills.title}</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {data.skills.data.map(({ category, items }) => (
+              <div
+                key={category}
+                className="bg-white rounded-xl p-5 border-l-4 border-primary shadow-sm"
+              >
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-primary mb-3">
+                  {category}
+                </h3>
+                <div className="flex flex-wrap gap-1.5">
+                  {items.map((item) => (
+                    <span
+                      key={item}
+                      className="inline-block px-2.5 py-1 rounded-md text-xs font-medium bg-slate-50 text-slate-700"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

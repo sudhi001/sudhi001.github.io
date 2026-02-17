@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import data from './data'
@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   keywords: data.webMeta.keywords,
 }
 
+export const viewport: Viewport = {
+  themeColor: '#FFFFFF',
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -20,14 +24,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
-      </head>
-      <body className={`${inter.className} bg-black text-white`}>
-        {/* Global terminal-styled body */}
-        <div className="terminal-ui">
-          {children}
-        </div>
+      <body className={`${inter.className} bg-white text-foreground`}>
+        {children}
       </body>
     </html>
   )

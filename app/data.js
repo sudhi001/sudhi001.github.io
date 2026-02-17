@@ -1,7 +1,8 @@
 const data = {
   name: "Sudhi S",
   position: "Technical Architect",
-  company: "Stabilix Solutions Pvt. Ltd. Trivandrum, Kerala, India",
+  company: "Stabilix Solutions Pvt. Ltd.",
+  location: "Trivandrum, Kerala, India",
   shortDescription:"12+ years of experience in Healthcare, Insurance, and Identity Management",
   aboutMe: [
     "I am an innovative and versatile Technical Architect with over 12 years of extensive experience in developing and designing solutions across various domains, including Healthcare, Insurance, and Identity Management. My journey in the tech world started with mobile application development and gradually expanded into backend architecture, big data systems, and AI-driven applications.",
@@ -23,7 +24,7 @@ const data = {
     { href: "https://in.linkedin.com/in/sudhis", icon: "faLinkedin" }
   ],
   skills: {
-    title: "HARDWARE/SOFTWARE",
+    title: "Skills & Expertise",
     data: [
       {
        category: "Programming Languages",

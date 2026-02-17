@@ -3,99 +3,144 @@
 @tailwind utilities;
 
 :root {
-  --foreground: #dcdcdc; /* Lighter text color for terminal */
-  --background: #000000; /* Darker background */
-  --highlight: #00ff00; /* Terminal-like highlight color */
-  --cursor: #00ff00; /* Cursor color */
-  --font-family-terminal: 'Fira Code', monospace; /* Change to your preferred font */
+  --foreground: #1D1D1F;
+  --foreground-secondary: #86868B;
+  --background: #FFFFFF;
+  --background-alt: #F5F5F7;
+  --primary: #007AFF;
+  --secondary: #5856D6;
+  --accent: #FF2D55;
 }
 
-/* Dark mode styling - Uncomment this section if you want auto dark mode support */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #dcdcdc;
-    --background: #000000;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 
-    'Arial', sans-serif;
+  font-family: 'Inter', 'SF Pro Text', 'Helvetica Neue', 'Arial', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   word-break: break-word;
   font-kerning: auto;
-  font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  hyphens: auto;
   color: var(--foreground);
   background: var(--background);
 }
 
-/* Custom terminal-like styles */
-.terminal {
-  font-family: var(--font-family-terminal); /* Custom font */
-  font-size: 16px;
-  background: var(--background);
-  color: var(--foreground);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1); /* Glow effect for terminal */
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #007AFF, #5856D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.terminal .command {
-  color: var(--highlight); /* Green for commands */
+/* Gradient border ring for profile image */
+.gradient-ring {
+  background: linear-gradient(135deg, #007AFF, #5856D6, #FF2D55);
+  padding: 3px;
+  border-radius: 9999px;
 }
 
-.terminal .output {
-  color: var(--foreground); /* Default text color for output */
+.gradient-ring > * {
+  border-radius: 9999px;
 }
 
-.terminal .cursor {
-  color: var(--cursor); /* Cursor color */
-  animation: blink 0.8s step-end infinite; /* Blinking cursor effect */
+/* Frosted glass navbar */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-/* Blink animation for terminal cursor */
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
+/* Card styles */
+.card {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* Optional: Style links in terminal */
-.terminal a {
-  color: #00aaff;
-  text-decoration: none;
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
 }
 
-.terminal a:hover {
-  text-decoration: underline;
-}
-
-/* Typing Animation */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-
-.typing-animation {
-  display: -webkit-box;
-  -webkit-line-clamp: 5; /* Limits the text to 3 lines */
-  -webkit-box-orient: vertical;
+/* Gradient top border for cards */
+.card-gradient-top {
+  position: relative;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+.card-gradient-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(135deg, #007AFF, #5856D6);
+}
+
+/* Timeline styles */
+.timeline-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #007AFF, #5856D6);
+  border-radius: 2px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -5px;
+  top: 1.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #007AFF;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 0 2px #007AFF;
+}
+
+/* Hero section subtle gradient */
+.hero-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 122, 255, 0.03) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Link styles */
+a {
+  color: #007AFF;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #5856D6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C7C7CC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #86868B;
 }

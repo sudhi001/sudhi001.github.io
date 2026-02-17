@@ -9,17 +9,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        foreground: '#dcdcdc', // Lighter text color for terminal
-        background: '#1e1e1e', // Darker background
-        highlight: '#00ff00', // Terminal-like highlight color
-        cursor: '#00ff00', // Cursor color
+        foreground: '#1D1D1F',
+        'foreground-secondary': '#86868B',
+        background: '#FFFFFF',
+        'background-alt': '#F5F5F7',
+        primary: '#007AFF',
+        secondary: '#5856D6',
+        accent: '#FF2D55',
+        success: '#34C759',
       },
       fontFamily: {
-        terminal: ['Fira Code', 'Courier New', 'monospace'], // Custom terminal font
+        sans: ['Inter', 'SF Pro Text', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-accent': 'linear-gradient(135deg, #007AFF, #5856D6, #FF2D55)',
+      },
+      boxShadow: {
+        'card': '0 2px 12px rgba(0, 0, 0, 0.08)',
+        'card-hover': '0 8px 30px rgba(0, 0, 0, 0.12)',
       },
     },
   },
@@ -27,4 +36,3 @@ const config: Config = {
 };
 
 export default config;
-
